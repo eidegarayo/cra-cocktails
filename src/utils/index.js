@@ -28,7 +28,7 @@ export function sortCatList(a, b) {
 
 export function cocktailIngrs(cocktail) {
   const ingredients = [];
-  for (let i = 1; i < 16; i + 1) {
+  for (let i = 1; i < 16; i += 1) {
     if (cocktail[`strIngredient${i}`] && cocktail[`strMeasure${i}`]) {
       ingredients.push(`${cocktail[`strIngredient${i}`]} - ${cocktail[`strMeasure${i}`]}`);
     } else if (cocktail[`strIngredient${i}`]) {
