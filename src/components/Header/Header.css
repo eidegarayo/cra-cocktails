@@ -1,0 +1,13 @@
+header {
+  width: 100%;
+  background-color: #5B4255;
+  color: #fff;
+}
+
+header span {
+  font-size: 35px;
+}
+
+header nav.navbar-light .navbar-nav a.nav-link {
+  color: #fff;
+}

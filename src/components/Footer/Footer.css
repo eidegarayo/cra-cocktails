@@ -1,0 +1,12 @@
+footer {
+  background-color: #5B4255;
+  min-height: 100px;
+}
+footer a svg{
+  color: #FFFFFF;
+  transition: all .2s ease-in-out;
+}
+footer a svg:hover {
+  color: #FFFFFF;
+  transform: scale(1.1);
+}
