@@ -27,7 +27,7 @@ const Header = (props) => {
                 const catName = cat.strCategory;
                 const formatedCat = catName.replace(/ /g, '_').replace(/\//g, '-');
 
-                return <Link className="nav-link" to={`/category/${formatedCat}`}>{catName}</Link>;
+                return <Link key={formatedCat} className="nav-link" to={`/category/${formatedCat}`}>{catName}</Link>;
               })
             }
           </Nav>
@@ -38,7 +38,9 @@ const Header = (props) => {
 };
 
 Header.propTypes = {
-  categories: PropTypes.arrayOf(PropTypes.string).isRequired,
+  categories: PropTypes.arrayOf(PropTypes.shape({
+    strCategory: PropTypes.string,
+  })).isRequired,
 };
 
 Header.defaultProps = {};

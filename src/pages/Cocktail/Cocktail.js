@@ -6,7 +6,7 @@ import { getCocktailByName } from '../../services/cocktailsApi';
 
 const Cocktail = () => {
   const { id } = useParams();
-  const [cocktail, setCocktail] = useState([]);
+  const [cocktail, setCocktail] = useState({});
 
   useEffect(() => {
     if (!id) return;
