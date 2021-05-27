@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import { Container } from 'react-bootstrap';
 
-import './Layout.css';
 
 const Layout = (props) => {
   const { children } = props;

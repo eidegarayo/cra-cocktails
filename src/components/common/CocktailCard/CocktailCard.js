@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
-
 import { Media, ListGroup } from 'react-bootstrap';
 
-import './CocktailCard.css';
 import { cocktailIngrs } from '../../../utils';
+
 
 const CocktailCard = (props) => {
   const { cocktail } = props;

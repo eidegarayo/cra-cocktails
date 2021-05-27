@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 import { Navbar, Nav } from 'react-bootstrap';
 
-import './Header.css';
-
 const Header = (props) => {
   const { categories } = props;
 

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Media, Row, Col } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
-import './CocktailList.css';
 
 const CoctailsList = (props) => {
   const { cocktails } = props;

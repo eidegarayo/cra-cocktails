@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 
-import './Cocktail.css';
 import { CocktailCard } from '../common';
 
 const Cocktail = (props) => {
